@@ -1,0 +1,166 @@
+.grid-container{
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 'header header header header header header header header header header header header'
+    'main main main main main main main main main main main main'
+    'footer footer footer footer footer footer footer footer footer footer footer footer';
+}
+
+.header{
+    background-color: black;
+    
+    justify-content: space-around;
+    grid-area: header;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.footer{
+    background-color: black;
+    
+    justify-content: space-around;
+    grid-area: header;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+
+.primary-button{
+    background-color: white;
+    color: black;
+    padding: 12px 24px 12px 24px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+.main{
+    margin-left: 5in;
+    margin-right: 5in;
+   
+    grid-area: main;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+
+.footer{
+   
+    grid-area: footer;
+    height: 70px;
+    background-color: black;
+}
+
+.slike{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 3px solid black;
+    border-radius: 50px;
+
+}
+h2{
+    margin-left: 1in;
+}
+
+.btn-now{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 12px 24px 12px 24px;
+   margin-left: 370px;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+
+
+.btn-before{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 12px 24px 12px 24px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+
+.btn-before:hover{
+    background-color: rgb(44, 43, 43);
+}
+
+.btn-before:active{
+    background-color: rgb(44, 43, 43);
+    border:2px solid gray;
+}
+
+.primary-button:active{
+    border: 2px solid rgb(144, 144, 156);
+}
+
+.uvod{
+    margin-bottom: 1.2in;
+    font-size: 20px;
+}
+
+h1{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.tekst{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.btn-now:hover{
+    background-color: rgb(44, 43, 43);
+}
+
+.btn-now:active{
+    background-color: rgb(44, 43, 43);
+    border:2px solid gray;
+}
+
+.primary-now:active{
+    border: 2px solid rgb(144, 144, 156);
+}
+
+.btn-footer{
+    color:white;
+    background-color: black;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn-footer:hover{
+    background-color: rgb(44, 43, 43);
+}
+
+.btn-footer:active{
+    background-color: rgb(44, 43, 43);
+    border:2px solid gray;
+}
+
+.button-footer:active{
+    border: 2px solid rgb(144, 144, 156);
+}
